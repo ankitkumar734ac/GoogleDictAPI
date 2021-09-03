@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Pane prefHeight="445.0" prefWidth="668.0">
+         <children>
+            <TextField fx:id="tf" layoutX="64.0" layoutY="126.0" prefHeight="41.0" prefWidth="391.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btn" layoutX="496.0" layoutY="126.0" mnemonicParsing="false" onAction="#search" prefHeight="41.0" prefWidth="100.0" text="Search" textFill="#7312e3">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="ta" layoutX="68.0" layoutY="197.0" prefHeight="228.0" prefWidth="532.0" wrapText="true">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+            </TextArea>
+            <Text fill="#e3200e" layoutX="96.0" layoutY="77.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Google Word Dictionary" textAlignment="JUSTIFY" wrappingWidth="518.13671875">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
